@@ -52,6 +52,7 @@ object customNumeric {
 			new Fraction[Long](x.numerator*y.denominator - y.numerator*x.denominator, x.denominator*y.denominator)
 	}
 
+
 	//implicit def intToFraction(x: Int): Fraction[Int] = new Fraction[Int](x, 1)
 	//implicit def intToFraction(x: Long): Fraction[Long] = new Fraction[Long](x, 1)
 	//implicit def int2ToFraction(x: Int, y: Int): Fraction[Int] = new Fraction[Int](x, y)
